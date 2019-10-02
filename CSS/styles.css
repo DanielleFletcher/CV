@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #5398D9;
+}
+h3 {
+  color: #5398D9;
+}
+h4 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  border-top-color: #5398D9;
+  border-width: 5px;
+}
+img {
+  border-style: inset;
+  border-color: black;
+  border-width: 10px;
+}
+table{
+  width: 100%;
+}
