@@ -1,30 +1,94 @@
+/******************************************TAG SELECTORS******************************************/
 body {
-  background-color: white;
+  background-color: #222831;
   font-family: Arial, sans-serif;
 }
+
 h1 {
-  color: #5398D9;
+  color: #3ec1d3;
 }
+
 h3 {
-  color: #5398D9;
+  color: #3ec1d3;
 }
+
 h4 {
+  color: #eeeeee;
   margin: 0;
 }
+
 p {
+  color: #eeeeee;
   margin: 0;
 }
+
 hr {
   width: 5%;
   border-style: dotted none none;
-  border-top-color: #5398D9;
+  border-top-color: #3ec1d3;
   border-width: 5px;
 }
+
 img {
   border-style: inset;
-  border-color: #5398D9;
+  border-color: #3c4245;
   border-width: 10px;
 }
-table{
-  width: 100%;
+
+table {
+  width: 85%;
+  color: #eeeeee;
 }
+
+/* Unvisited links */
+a:link {
+  color: blue;
+}
+
+/* Visited links */
+a:visited {
+  color: #00adb5;
+}
+
+/* Hovered links */
+a:hover {
+  background: yellow;
+  color: black;
+}
+
+/* Active links */
+a:active {
+  color: red;
+}
+
+ul {
+  color: #eeeeee;
+}
+
+li {
+  color: #eeeeee;
+}
+
+label {
+  color: #eeeeee;
+}
+
+form {
+  color: #eeeeee;
+}
+
+/******************************************CLASS SELECTORS******************************************/
+.circular {
+  border-radius: 100%;
+}
+
+.Company {
+  float: left;
+  text-align: left;
+}
+
+.Tenure {
+  text-align: center;
+}
+
+/******************************************ID SELECTORS******************************************/
